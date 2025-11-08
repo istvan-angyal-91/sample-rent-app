@@ -1,0 +1,32 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4px;
+}
+nav a{
+  background-color: var(--nav-bg-color);
+  color: var(--nav-color);
+  border-radius: 6px;
+  padding: 4px;
+  cursor: pointer;
+  border: 2px solid var(--nav-color);
+  margin-top: 4px;
+  text-decoration: none;
+  transition: all 1s;
+}
+nav a:hover{
+  background-color: var(--nav-selected-bg-color);
+  color: var(--nav-selected-color);
+  border: 2px solid var(--nav-selected-color);
+  transition: all 1s;
+}
+nav a.selected{
+  background-color: var(--nav-selected-bg-color);
+  color: var(--nav-selected-color);
+  border: 2px solid var(--nav-selected-color);
+  transition: all 1s;
+}
